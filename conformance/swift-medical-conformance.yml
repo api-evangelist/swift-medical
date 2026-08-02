@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://swiftmedical.com/technology/
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: >-
+    Swift Medical states it holds SOC 2 Type 2, audited by an independent firm
+    for security, availability, processing integrity, confidentiality, and
+    privacy controls (technology page).
+- id: sso-okta
+  conforms: true
+  evidence: Technology page documents single sign-on support via Okta.
+- id: sso-microsoft
+  conforms: true
+  evidence: Technology page documents single sign-on support via Microsoft (Entra/Azure AD).
+- id: encryption-in-transit-and-at-rest
+  conforms: true
+  evidence: Technology/security content states data is encrypted in transit and at rest.
+- id: mfa
+  conforms: true
+  evidence: Multi-factor authentication is required for platform access.
+notes: >-
+  Swift Medical publishes no public OpenAPI/developer specification, so
+  cross-cutting API standards (OAuth2/OIDC, FHIR/HL7, RFC 9457, pagination,
+  idempotency) cannot be derived and are not asserted. Standards above are
+  compliance/security posture claims sourced from the public technology page.

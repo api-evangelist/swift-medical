@@ -1,7 +1,19 @@
 aid: swift-medical
 name: Swift Medical
-description: Swift Medical is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Swift Medical develops AI-powered wound and skin care management software for
+  healthcare organizations across acute, post-acute, home health, and hospice
+  settings. Its flagship Skin & Wound app captures calibrated wound images on
+  mobile devices, applies computer-vision tissue analytics and auto-tracing to
+  measure and classify wounds, and coordinates care through longitudinal
+  documentation backed by the company's database of more than 32 million wound
+  images. The platform emphasizes secure, compliant handling of protected health
+  information (SOC 2 Type 2, encryption in transit and at rest, role-based access,
+  MFA) and single sign-on via Okta and Microsoft. Swift Medical does not currently
+  publish a public developer API or developer portal; integration is handled
+  through direct engagement and enterprise SSO/EHR arrangements. This profile was
+  surfaced as a portfolio company of DCVC and enriched by the API Evangelist
+  pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/swift-medical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +21,55 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://swiftmedical.com/wp-content/themes/swift-medical/assets/img/logo.svg
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Health
+- Healthcare
+- Wound Care
+- Medical Imaging
+- Artificial Intelligence
+- Digital Health
+- Clinical Software
 apis: []
+common:
+- type: Website
+  url: https://swiftmedical.com
+- type: Blog
+  url: https://swiftmedical.com/blog/
+- type: Support
+  url: https://swiftmedical.com/support/
+- type: PrivacyPolicy
+  url: https://swiftmedical.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/swiftmedical
+- type: SignUp
+  url: https://info.swiftmedical.com/book-a-demo
+- type: Compliance
+  url: https://swiftmedical.com/technology/
+- type: Conformance
+  url: conformance/swift-medical-conformance.yml
+- type: DomainSecurity
+  url: security/swift-medical-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

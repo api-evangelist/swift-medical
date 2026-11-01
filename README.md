@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Swift Medical is a company surfaced as a portfolio company of dcvc and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Swift Medical develops AI-powered wound and skin care management software for healthcare organizations across acute, post-acute, home health, and hospice settings. Its flagship Skin & Wound app captures calibrated wound images on mobile devices, applies computer-vision tissue analytics and auto-tracing to measure and classify wounds, and coordinates care through longitudinal documentation backed by the company's database of more than 32 million wound images. The platform emphasizes secure, compliant handling of protected health information (SOC 2 Type 2, encryption in transit and at rest, role-based access, MFA) and single sign-on via Okta and Microsoft. Swift Medical does not currently publish a public developer API or developer portal; integration is handled through direct engagement and enterprise SSO/EHR arrangements. This profile was surfaced as a portfolio company of DCVC and enriched by the API Evangelist pipeline.
 
-Backed by: dcvc
+**Areas:** Company · Health · Healthcare · Wound Care · Medical Imaging · Artificial Intelligence · Digital Health · Clinical Software
+
+## Swift Medical on APIs.io
+
+Everything profiled for Swift Medical is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/swift-medical/](https://apis.io/providers/swift-medical/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Swift Medical Domain Security](https://apis.io/security/swift-medical/swift-medical-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://swiftmedical.com)
+- [Sign up](https://info.swiftmedical.com/book-a-demo)
+- [Support](https://swiftmedical.com/support/)
+- [Blog](https://swiftmedical.com/blog/)
+- [Compliance](https://swiftmedical.com/technology/)
+- [Privacy policy](https://swiftmedical.com/privacy)
+- [GitHub](https://github.com/swiftmedical)
+
+## API Evangelist rating
+
+**Kin Score 15.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 31.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/swift-medical/](https://apis.io/providers/swift-medical/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Swift Medical: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/swift-medical/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
